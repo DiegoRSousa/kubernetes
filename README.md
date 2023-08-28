@@ -21,3 +21,4 @@ Extends the ClusterIP and its visibility is internal and external to the cluster
 This expose the service on each Node's IP at a static port.
 
 #### LoadBalancer
+Exposes the service externally using an external load balancer.

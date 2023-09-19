@@ -22,3 +22,8 @@ This expose the service on each Node's IP at a static port.
 
 #### LoadBalancer
 Exposes the service externally using an external load balancer.
+
+### ReplicaSets
+Is a higher-level abstraction used to ensure that a specified number of identical pod replicas are running at all time. ReplicaSets are often used for achieving high avalilability, load balancing, and scaling applications within a Kubernetes cluster.
+
+### Deployment

@@ -33,3 +33,4 @@ Is a ReplicaSet providing declarative update for pods and ReplicaSets
 The kubelet uses liveness probes to know when to restart a container, and uses readness probes to know when a container is ready to start accepting traffic.
 
 ### Horizontal Pod Autoscaler
+In Kubernetes, a Horizontal Pod Autoscaler automatically updates a workload resource (such as a Deployment or StatefulSet). Horizontal scaling means that the response to increased load is to deploy more pods.
